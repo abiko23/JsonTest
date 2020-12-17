@@ -2,7 +2,7 @@ import json
 #from collections import OrderedDict
 #import pprint
 
-f = open('users.json', 'r')
+f = open('users.text', 'r')
 users = json.load(f)
 
 #print(users)
